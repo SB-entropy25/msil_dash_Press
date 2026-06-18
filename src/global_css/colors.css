@@ -1,0 +1,16 @@
+:root {
+	--primary-color-blue: #13294b;
+	--secondary-color-blue: #1e75bb;
+	--primary-color-green: #47d7ac;
+	--primary-color-black: #000;
+	--primary-color-white: #fff;
+	--primary-color-yellow: #fcdc74;
+	--secondary-color-yellow: #ffc300;
+	--secondary-color-green: #5ed160;
+	--primary-color-red: #f8485e;
+	--primary-color-grey: #f1f1f1;
+	--secondary-color-grey: #bdbdbd;
+	--tertiary-color-grey: #888888;
+	--primary-color-dark-grey: #696969;
+	--secondary-color-dark-grey: #B6B6B6;
+}

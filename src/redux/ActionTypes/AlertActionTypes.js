@@ -1,0 +1,1 @@
+export const PRESS_SHOP_ALERT = "PRESS_SHOP_ALERT";

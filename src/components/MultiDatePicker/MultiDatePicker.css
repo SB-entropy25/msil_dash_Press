@@ -1,0 +1,106 @@
+.prodigi .custom-calendar.rmdp-wrapper {
+  font-family: "Roboto" !important;
+  box-shadow: none;
+  border: 1px solid #eeeeee;
+}
+.prodigi .rmdp-arrow-container.rmdp-right .rmdp-arrow {
+  border-bottom: solid #171c8f !important;
+  border-right: solid #171c8f !important;
+}
+.prodigi .rmdp-arrow-container:hover.rmdp-right .rmdp-arrow {
+  border-bottom: solid #ffffff !important;
+  border-right: solid #ffffff !important;
+}
+.prodigi .rmdp-arrow-container.rmdp-left .rmdp-arrow {
+  border-bottom: solid #171c8f !important;
+  border-right: solid #171c8f !important;
+}
+.prodigi .rmdp-arrow-container:hover.rmdp-left .rmdp-arrow {
+  border-bottom: solid #ffffff !important;
+  border-right: solid #ffffff !important;
+}
+.prodigi .rmdp-arrow-container:hover {
+  box-shadow: none !important;
+  background-color: #3c3c4399 !important;
+}
+.prodigi .rmdp-week-day {
+  color: #3c3c4399 !important;
+  font-size: 1.4rem !important;
+}
+.prodigi .rmdp-day.rmdp-selected span {
+  background-color: #171c8f !important;
+  font-size: 1.4rem !important;
+}
+.prodigi .rmdp-day span {
+  font-size: 1.4rem !important;
+}
+.prodigi .rmdp-day span:hover {
+  font-size: 1.4rem !important;
+  background-color: #3c3c4399 !important;
+}
+.prodigi .rmdp-panel-body li span {
+  font-size: 1.4rem !important;
+}
+.prodigi .rmdp-panel.right div:nth-child(2) {
+  scrollbar-width: thin !important;
+  scrollbar-color: #c4c4c4 #f4f5f8 !important;
+}
+.prodigi .rmdp-panel.right div::-webkit-scrollbar {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+}
+.prodigi .rmdp-panel.right div::-webkit-scrollbar-track {
+  background: #f4f5f8 !important;
+}
+.prodigi .rmdp-panel.right div::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4 !important;
+  height: 3rem !important;
+  border-radius: 2rem !important;
+  border: 0.4rem solid #f4f5f8 !important;
+}
+
+.prodigi .rmdp-container .custom-calendar.ep-arrow {
+  display: none;
+  visibility: hidden;
+}
+
+.prodigi .rmdp-panel-body li {
+  background-color: transparent !important;
+  color: black !important;
+  box-shadow: none !important;
+  align-items: center !important;
+  padding-right: 0.8rem !important;
+}
+.prodigi .rmdp-panel-body li .b-deselect {
+  visibility: hidden;
+  background-color: #171c8f !important;
+  color: white;
+  font-size: 1.2rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1.4rem !important;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 1.6rem !important;
+  width: 1.6rem !important;
+}
+.prodigi .rmdp-panel-body li:hover {
+  background-color: #cfd2d9 !important;
+  color: black !important;
+  box-shadow: none !important;
+}
+.prodigi .rmdp-panel-body li:hover .b-deselect {
+  /* display: flex !important; */
+  visibility: inherit !important;
+}
+
+/* //// */
+.prodigi .rmdp-panel-body li .b-date {
+  font-size: 1.4rem !important;
+  color: black !important;
+  box-shadow: none !important;
+  line-height: 23px;
+  margin: 0 5px;
+  text-align: start;
+}

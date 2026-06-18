@@ -1,0 +1,9 @@
+.recharts-cartesian-grid-vertical line {
+  stroke-dasharray: none;
+}
+
+.custom-label {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: -0.035rem;
+}

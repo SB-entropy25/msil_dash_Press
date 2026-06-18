@@ -1,0 +1,59 @@
+.prodigi-chart .custom-y-axis .recharts-cartesian-axis-line {
+  stroke: #d8d8d8 !important;
+}
+.prodigi-chart .recharts-text.recharts-label > tspan {
+  fill: #808080 !important;
+}
+.prodigi-chart
+  .recharts-yAxis
+  > .recharts-cartesian-axis-ticks
+  > .recharts-cartesian-axis-tick
+  > .recharts-cartesian-axis-tick-value
+  > tspan {
+  fill: #808080 !important;
+}
+
+.prodigi-chart
+  .recharts-xAxis
+  > .recharts-cartesian-axis-ticks
+  > .recharts-cartesian-axis-tick
+  > .recharts-cartesian-axis-tick-value
+  > tspan {
+  fill: #808080 !important;
+}
+
+.prodigi-chart .recharts-cartesian-axis-tick-line {
+  stroke: #d8d8d8;
+}
+
+.prodigi-bar-container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin !important;
+  scrollbar-color: #c4c4c4 #fff !important;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  flex: 1;
+}
+.prodigi-bar-container::-webkit-scrollbar {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+}
+.prodigi-bar-container::-webkit-scrollbar-track {
+  background: #fff !important;
+}
+.prodigi-bar-container::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4 !important;
+  height: 3rem !important;
+  border-radius: 2rem !important;
+  border: 0.4rem solid #fff !important;
+}
+.prodigi-inner-bar-container {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}

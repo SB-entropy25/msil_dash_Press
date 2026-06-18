@@ -1,0 +1,26 @@
+:root {
+	--primary-font-Regular: EquipExtReg;
+	--primary-font-SemiBold: EquipExtMed;
+	--primary-font-Bold: EquipExtBol;
+	--primary-font-Light: EquipExtLig;
+}
+
+@font-face {
+	font-family: 'EquipExtBol';
+	src: local('EquipExtBol'), url(../fonts/EquipExtXBol.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'EquipExtReg';
+	src: local('EquipExtReg'), url(../fonts/EquipExtReg.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'EquipExtMed';
+	src: local('EquipExtMed'), url(../fonts/EquipExtMed.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'EquipExtLig';
+	src: local('EquipExtLig'), url(../fonts/EquipExtLig.ttf) format('truetype');
+}

@@ -1,0 +1,191 @@
+@import url("./colors.css");
+/* @import url('./fonts.css'); */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.App {
+  height: 100vh;
+  overflow: hidden;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  line-height: 1.7;
+  /* font-family: var(--primary-font-Regular); */
+}
+
+.iot-platform-container {
+  width: 100%;
+  height: 100%;
+  max-width: 160rem;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  top: 0;
+}
+
+button {
+  border: none;
+}
+
+input,
+select {
+  /* font-family: var(--primary-font-Regular) !important; */
+  outline: none;
+  border: none;
+  text-indent: 10px;
+  margin-top: 1.5rem;
+  border-bottom: 1px solid var(--primary-color-blue);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  /* background-color: transparent !important; */
+  -webkit-box-shadow: 0 0 0 50px transparent inset; /* Change the color to your own background color */
+  -webkit-text-fill-color: #333;
+}
+input[type="text"]:focus,
+select {
+  background: var(--primary-color-white);
+  outline: none;
+  border: none;
+  text-indent: 10px;
+  margin-top: 1.5rem;
+  border-bottom: 1px solid var(--primary-color-blue);
+}
+
+.iot-btn {
+  text-decoration: none;
+  /* font-family: var(--primary-font-SemiBold); */
+  color: var(--primary-color-white);
+  background: var(--primary-color-blue);
+  padding: 1.5rem 1rem;
+  font-size: 1.4rem;
+  transition: box-shadow 100ms ease-in;
+  border-radius: 5px;
+}
+
+.secondary-btn {
+  text-decoration: none;
+  /* font-family: var(--primary-font-SemiBold); */
+  color: var(--primary-color-blue);
+  background: var(--primary-color-white);
+  padding: 1.5rem 1rem;
+  font-size: 1.4rem;
+  transition: box-shadow 100ms ease-in;
+  border: 1px solid var(--primary-color-blue);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed !important;
+}
+button:disabled {
+  cursor: not-allowed !important;
+}
+
+.iot-btn:hover {
+  color: var(--primary-color-white) !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 30%);
+}
+
+.iot-btn:disabled {
+  text-decoration: none !important;
+  cursor: not-allowed !important;
+  box-shadow: none;
+  opacity: 0.6;
+}
+
+.success {
+  color: var(--secondary-color-green);
+}
+
+.error {
+  color: var(--primary-color-red);
+}
+
+.disable {
+  color: var(--tertiary-color-grey);
+}
+
+.success-bg {
+  background: var(--secondary-color-green);
+}
+
+.error-bg {
+  background: var(--primary-color-red);
+}
+
+.disable-bg {
+  background: var(--tertiary-color-grey);
+}
+
+.average-bg {
+  background: var(--primary-color-yellow);
+}
+.warning-bg {
+  background: var(--secondary-color-yellow);
+}
+
+.Toastify__toast--default {
+  background: white !important;
+  color: black !important;
+  font-size: 1.2rem !important;
+  /* font-family: var(--primary-font-SemiBold) !important; */
+  border-left: 3px solid var(--secondary-color-green) !important;
+}
+.Toastify__toast--info {
+  background: white !important;
+  color: black !important;
+  font-size: 1.2rem !important;
+  /* font-family: var(--primary-font-SemiBold) !important; */
+  border-left: 3px solid var(--primary-color-red) !important;
+}
+
+a {
+  color: var(--secondary-color-blue);
+}
+
+.layer-switcher {
+  top: 0.5em !important;
+}
+
+.layer-switcher .panel ul {
+  padding: 0px;
+  margin: 0px;
+  padding-top: 5px;
+  padding-left: 15px;
+  line-height: 11px;
+  /* list-style: none; */
+}
+
+.layer-switcher li {
+  margin-bottom: 1.2rem !important;
+}
+
+.shadow {
+  box-shadow: 4px 2px 12px -10px rgb(0 0 0);
+}
+button:focus {
+  outline-color: currentColor !important;
+}

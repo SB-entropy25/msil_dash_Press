@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21.2" viewBox="0 0 20 21.2">
+  <g id="Icon" transform="translate(0 0.6)">
+    <rect id="Area" width="20" height="20" fill="#fcfcfc" opacity="0"/>
+    <g id="Icon-2" data-name="Icon" transform="translate(1.29 2.499)">
+      <path id="_517c58cf-5827-4f50-b034-68733a625d49" data-name="517c58cf-5827-4f50-b034-68733a625d49" d="M14,2H6A2,2,0,0,0,4,4V20a2,2,0,0,0,2,2H18a2,2,0,0,0,2-2V8Z" transform="translate(-3.29 -4.499)" fill="none" stroke="#171C8F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <path id="efaaf4b9-95b2-49f7-94bb-f348870a24bd" d="M14,2V8h6" transform="translate(-3.29 -4.499)" fill="none" stroke="#171C8F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <line id="e3a79d40-072b-49a8-88ce-0ffb4be63cc6" y1="6" transform="translate(8.71 7.501)" fill="none" stroke="#171C8F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <line id="_8fc67ccd-72df-421c-bce7-555dba4d9804" data-name="8fc67ccd-72df-421c-bce7-555dba4d9804" x2="6" transform="translate(5.71 10.501)" fill="none" stroke="#171C8F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+    </g>
+  </g>
+</svg>

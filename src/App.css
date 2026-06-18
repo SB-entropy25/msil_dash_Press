@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+#prodigi-root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+html {
+  font-size: 7px !important;
+}
+@media screen and (min-width: 1366px) {
+  html {
+    font-size: 8.5px !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 9px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 10px !important;
+  }
+}
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 14px !important;
+  }
+}
+@media screen and (min-width: 3840px) {
+  html {
+    font-size: 12px !important;
+    background-color: #f4f5f8 !important;
+  }
+}
+
+.prodigi {
+  background-color: #f4f5f8;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex: 1;
+  font-family: Roboto;
+}
+
+input[type="file"] {
+  display: none;
+}
+input[type="text"]:focus {
+  border: none !important;
+  margin-top: 0 !important;
+  background: transparent !important;
+}
+
+.select-label {
+  color: #66696b !important;
+  width: fit-content !important;
+  white-space: nowrap;
+}
+
+.select-placeholder {
+  color: #9ea1a7 !important;
+  width: 230% !important;
+}
+
+select:focus {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* Fonts */
+.font-small {
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-size: 1.2rem !important;
+  line-height: 1.4rem !important;
+  letter-spacing: -0.025em !important;
+}
+
+.font-regular {
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-size: 1.4rem !important;
+  line-height: 1.6rem !important;
+  letter-spacing: -0.025em !important;
+}
+
+.font-extralarge {
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-size: 2.4rem !important;
+  line-height: 2.8rem !important;
+  letter-spacing: -0.025em !important;
+}
+
+.font-semilarge {
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-size: 1.6rem !important;
+  line-height: 2rem !important;
+  letter-spacing: -0.025em !important;
+}
+
+.font-large {
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-size: 2rem !important;
+  line-height: 2.4rem !important;
+  letter-spacing: -0.025em !important;
+}
+
+.font-normal {
+  font-weight: normal !important;
+}
+
+.font-semibold {
+  font-weight: 600 !important;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
